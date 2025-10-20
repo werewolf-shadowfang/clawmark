@@ -855,4 +855,4 @@ If you need help or have questions:
 
 ---
 
-**Made with ❤️ and 🐺 by the ClawMark Generator team**
+**Made with ❤️ and 🐺 by the Connor Shadowfang Goodwolf**
