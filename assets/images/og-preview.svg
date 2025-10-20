@@ -1,0 +1,53 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1e1b4b;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#312e81;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#4f46e5;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e0e7ff;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bgGrad)"/>
+  
+  <!-- Decorative elements -->
+  <circle cx="100" cy="100" r="50" fill="#6366f1" opacity="0.3"/>
+  <circle cx="1100" cy="530" r="80" fill="#8b5cf6" opacity="0.2"/>
+  <polygon points="200,500 250,450 300,500 250,550" fill="#6366f1" opacity="0.2"/>
+  
+  <!-- Main title -->
+  <text x="600" y="200" text-anchor="middle" fill="url(#textGrad)" font-family="Arial, sans-serif" font-size="72" font-weight="bold">
+    Connor Shadowfang Goodwolf
+  </text>
+  
+  <!-- Subtitle -->
+  <text x="600" y="280" text-anchor="middle" fill="#c7d2fe" font-family="Arial, sans-serif" font-size="32">
+    Software Architect &amp; Entrepreneur
+  </text>
+  
+  <!-- Description -->
+  <text x="600" y="350" text-anchor="middle" fill="#a5b4fc" font-family="Arial, sans-serif" font-size="24">
+    Machine Learning, AI &amp; Cybersecurity Consultant
+  </text>
+  
+  <!-- Call to action -->
+  <rect x="450" y="400" width="300" height="60" rx="30" fill="#6366f1" opacity="0.8"/>
+  <text x="600" y="440" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="24" font-weight="bold">
+    View All Links
+  </text>
+  
+  <!-- Subtle pattern -->
+  <g opacity="0.1">
+    <path d="M0,315 Q300,250 600,315 T1200,315" stroke="#ffffff" stroke-width="2" fill="none"/>
+    <path d="M0,345 Q300,280 600,345 T1200,345" stroke="#ffffff" stroke-width="1" fill="none"/>
+  </g>
+  
+  <!-- Claw mark accent -->
+  <g transform="translate(1050,50)" opacity="0.4">
+    <path d="M0,20 L30,50 M10,10 L40,40 M20,0 L50,30" stroke="#8b5cf6" stroke-width="4" stroke-linecap="round"/>
+  </g>
+</svg>

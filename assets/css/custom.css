@@ -1,0 +1,21 @@
+/* Custom CSS for ClawMark
+   Add your custom styles here */
+
+/* Example: Custom button hover effects */
+.link-button:hover {
+    transform: translateY(-2px);
+    transition: all 0.3s ease;
+}
+
+/* Example: Custom social icon styling */
+.social-icon:hover {
+    color: #6366f1;
+    transition: color 0.3s ease;
+}
+
+/* Example: Custom typography */
+.profile-name {
+    font-weight: 700;
+}
+
+/* Add your custom styles below */

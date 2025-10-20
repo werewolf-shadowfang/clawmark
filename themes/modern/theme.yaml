@@ -1,0 +1,57 @@
+# Modern Theme Configuration
+name: "Modern"
+description: "Clean, professional theme with gradient backgrounds and smooth animations"
+version: "1.0.0"
+
+# Theme-specific settings
+colors:
+  primary: "#6366f1"
+  secondary: "#8b5cf6"
+  background: "#ffffff"
+  text: "#1f2937"
+
+features:
+  - "Gradient background"
+  - "Smooth animations" 
+  - "Responsive design"
+  - "Social media icons"
+  - "Dark mode support"
+  - "Glass morphism effects"
+  - "Vanta.js animated backgrounds support"
+
+# Customizable options
+customization:
+  supports_custom_colors: true
+  supports_custom_fonts: true
+  max_links: 20
+  avatar_shape: "circle"
+  button_styles:
+    - "default"        # Standard button with subtle borders
+    - "gradient_border" # Static gradient border with high visibility background
+    - "solid"          # High-visibility solid gradient buttons (best for dark animated backgrounds)
+    - "glass"          # Glass morphism effect
+    - "neon"           # Neon glow effect
+  
+# Recommended Vanta.js settings for this theme
+vanta_recommendations:
+  effects:
+    primary: "waves"
+    alternatives: ["net", "topology", "fog"]
+  settings:
+    waves:
+      color: "#6366f1"
+      color2: "#8b5cf6"
+      backgroundColor: "#1e1b4b"
+      waveHeight: 15
+      waveSpeed: 0.75
+      zoom: 1.2
+    net:
+      color: "#6366f1"
+      color2: "#8b5cf6"
+      backgroundColor: "#0f172a"
+      points: 10
+      maxDistance: 20
+      spacing: 16
+    topology:
+      color: "#6366f1"
+      backgroundColor: "#0f172a"

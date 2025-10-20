@@ -1,0 +1,50 @@
+# Gradient Theme Configuration
+name: "Gradient"
+description: "Vibrant theme with colorful gradients, animations, and modern glass effects"
+version: "1.0.0"
+
+# Theme-specific settings
+colors:
+  primary: "#ff6b6b"
+  secondary: "#4ecdc4"
+  accent: "#45b7d1"
+  background: "#667eea"
+  text: "#2c3e50"
+
+features:
+  - "Vibrant gradients"
+  - "Floating animations"
+  - "Glass morphism"
+  - "Gradient text effects"
+  - "Dynamic backgrounds"
+  - "Colorful social icons"
+  - "Vanta.js animated backgrounds support"
+
+# Customizable options
+customization:
+  supports_custom_colors: true
+  supports_custom_fonts: true
+  max_links: 18
+  avatar_shape: "circle"
+  animation_speed: "medium"
+  
+# Recommended Vanta.js settings for this theme
+vanta_recommendations:
+  effects:
+    primary: "gradients"
+    alternatives: ["birds", "rings", "clouds"]
+  settings:
+    gradients:
+      color: "#ff6b6b"
+      color2: "#4ecdc4"
+      backgroundColor: "#667eea"
+      speed: 0.8
+    birds:
+      color1: "#ff6b6b"
+      color2: "#4ecdc4"
+      backgroundColor: "#667eea"
+      quantity: 3
+      birdSize: 1.5
+    rings:
+      color: "#ff6b6b"
+      backgroundColor: "#667eea"

@@ -1,0 +1,137 @@
+# Example ClawMark Configuration
+# Complete example showing all available options
+# Copy this to create your own config.yaml file
+
+site:
+  title: "John Doe - Creative Professional"
+  description: "Designer, Developer, and Content Creator - Find all my work here!"
+  url: "https://johndoe.com"  # Your deployed URL (important for social media previews)
+  theme: "modern"  # Try: modern, minimal, gradient
+  
+  # Optional: Custom assets (place files in assets/ directory)
+  favicon: "assets/icons/favicon.svg"
+  custom_css: "assets/css/custom.css"
+  custom_js: "assets/js/custom.js"
+  og_image: "assets/images/og-preview.png"  # Social media preview image
+  
+  analytics:
+    google_analytics: ""  # Add your GA tracking ID (e.g., G-XXXXXXXXXX)
+
+profile:
+  name: "John Doe"
+  bio: "Creative professional passionate about design, technology, and storytelling. Let's connect!"
+  avatar: "assets/images/profile.jpg"  # Use local file or URL
+  location: "San Francisco, CA"
+
+social:
+  # Social media handles (username only, no @ or URLs)
+  instagram: "johndoe"
+  x: "johndoe"  # Twitter/X
+  linkedin: "johndoe"
+  github: "johndoe"
+  youtube: "johndoe"
+  tiktok: "johndoe"
+  facebook: "johndoe"
+  discord: "https://discord.gg/yourinvite"  # Full invite URL for Discord
+  email: "hello@johndoe.com"
+
+links:
+  - title: "Portfolio Website"
+    url: "https://johndoe.com"
+    description: "View my latest design and development work"
+    icon: "💼"
+    featured: true
+    
+  - title: "Design Blog"
+    url: "https://blog.johndoe.com"
+    description: "Thoughts on design, creativity, and technology"
+    icon: "✍️"
+    
+  - title: "Photography"
+    url: "https://photos.johndoe.com"
+    description: "My photography portfolio and latest shots"
+    icon: "📸"
+    featured: true
+    
+  - title: "Online Course"
+    url: "https://course.johndoe.com"
+    description: "Learn web design with my comprehensive course"
+    icon: "🎓"
+    
+  - title: "Newsletter"
+    url: "https://newsletter.johndoe.com"
+    description: "Weekly design tips and industry insights"
+    icon: "📧"
+    
+  - title: "Buy Me Coffee"
+    url: "https://buymeacoffee.com/johndoe"
+    description: "Support my work and content creation"
+    icon: "☕"
+    
+  - title: "Merchandise Store"
+    url: "https://store.johndoe.com"
+    description: "T-shirts, stickers, and design prints"
+    icon: "🛍️"
+
+advanced:
+  # Custom HTML snippets
+  custom_head: ""  # Add custom meta tags, scripts, etc.
+  custom_footer: ""  # Add custom HTML at bottom of page
+  
+  # Theme customization
+  theme_options:
+    primary_color: "#6366f1"
+    secondary_color: "#8b5cf6"
+    background_color: "#ffffff"
+    text_color: "#1f2937"
+    primary_font: "Inter, sans-serif"
+    max_width: "400px"
+    button_style: "gradient_border"  # Options: rounded, square, pill, gradient_border, solid, glass, neon
+    animation: true
+  
+  # Vanta.js Animated Backgrounds (optional)
+  vanta:
+    enabled: true
+    effect: "net"  # Options: waves, birds, fog, clouds, net, cells, topology, dots, globe, rings, trunk, halo, noise, gradient
+    mobile_fallback: true  # Use static background on mobile
+    
+    settings:
+      color: "#4f46e5"
+      color2: "#7c3aed"
+      backgroundColor: "#1e1b4b"
+      # Effect-specific settings
+      waveHeight: 20
+      waveSpeed: 0.5
+      zoom: 1
+    
+    performance:
+      lowPerformanceMode: false
+      fps: 60
+    
+    mobile_background:
+      type: "gradient"
+      color: "#1e1b4b"
+      gradient: "linear-gradient(135deg, #1e1b4b, #4f46e5)"
+      image: ""
+  
+  # Open Graph Image Customization (optional)
+  # Used by create_og_image.py to generate social media preview
+  og_image_config:
+    title: "John Doe"
+    subtitle: "Creative Professional"
+    description: "Designer, Developer & Content Creator"
+    cta: "View My Work"
+    
+    colors:
+      bg_start: "#1e1b4b"
+      bg_end: "#4f46e5"
+      text: "#ffffff"
+      subtitle: "#c7d2fe"
+      description: "#a5b4fc"
+      button: "#6366f1"
+      accent1: "#6366f1"
+      accent2: "#8b5cf6"
+    
+    width: 1200
+    height: 630
+    output: "assets/images/og-preview.png"

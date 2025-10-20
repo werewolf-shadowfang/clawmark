@@ -1,0 +1,190 @@
+# ClawMark Configuration File - Button Style Examples
+# This YAML file shows different button style configurations
+
+# Site configuration
+site:
+  title: "My Stylish ClawMark"
+  description: "All my important links with beautiful button styles"
+  url: "https://yourdomain.com"
+  theme: "modern"  # Options: modern, minimal, gradient
+  favicon: "assets/icons/favicon.svg"
+  custom_css: "assets/css/custom.css"
+  og_image: "assets/images/og-preview.png"
+  analytics:
+    google_analytics: ""
+    
+# Profile information  
+profile:
+  name: "Your Name"
+  bio: "Showcasing beautiful button designs."
+  avatar: "assets/images/profile.jpg"
+  location: "Your City, Country"
+  
+# Social media links (all platforms supported)
+social:
+  instagram: "yourhandle"
+  x: "yourhandle"  
+  linkedin: "yourhandle"
+  github: "yourhandle"
+  youtube: "yourchannel"
+  tiktok: "yourhandle"
+  facebook: "yourhandle"
+  discord: "https://discord.gg/yourinvite"
+  email: "you@example.com"
+
+# Main links with various styles
+links:
+  - title: "My Website"
+    url: "https://yourwebsite.com"
+    description: "Check out my personal website"
+    icon: "🌐"
+    featured: true
+    
+  - title: "Portfolio"
+    url: "https://portfolio.yoursite.com"
+    description: "View my creative work and projects"
+    icon: "🎨"
+    
+  - title: "Buy Me Coffee"
+    url: "https://buymeacoffee.com/yourhandle"
+    description: "Support my work"
+    icon: "☕"
+
+# Advanced settings
+advanced:
+  # Theme customization
+  theme_options:
+    primary_color: "#6366f1"
+    secondary_color: "#8b5cf6" 
+    background_color: "#ffffff"
+    text_color: "#1f2937"
+    primary_font: "Inter, sans-serif"
+    max_width: "400px"
+    button_style: "gradient_border"  # ⭐ CHANGE THIS TO TRY DIFFERENT STYLES ⭐
+    animation: true
+    
+  # Vanta.js Animated Backgrounds (optional, works great with button styles)
+  vanta:
+    enabled: true
+    effect: "net"  # Try: waves, net, cells, topology, fog, clouds
+    mobile_fallback: true
+    
+    settings:
+      color: "#4f46e5"
+      color2: "#7c3aed"
+      backgroundColor: "#1e1b4b"
+      # Effect-specific settings
+      waveHeight: 20
+      waveSpeed: 0.5
+      zoom: 1
+      
+    performance:
+      lowPerformanceMode: false
+      fps: 60
+      
+    mobile_background:
+      type: "gradient"
+      color: "#1e1b4b"
+      gradient: "linear-gradient(135deg, #1e1b4b, #4f46e5)"
+
+---
+
+# ⭐ Available Button Styles:
+
+# 1. GRADIENT_BORDER (Recommended with animated backgrounds)
+#    Beautiful animated gradient borders with glow effects
+#    Perfect for: Modern theme, Vanta.js backgrounds
+button_style: "gradient_border"
+
+# 2. SOLID (Best for high contrast/visibility)
+#    Solid filled buttons with high contrast
+#    Perfect for: Animated backgrounds, maximum visibility
+button_style: "solid"
+
+# 3. GLASS (Modern glassmorphism)
+#    Glass morphism effect with blur and transparency
+#    Perfect for: Modern theme, all backgrounds
+button_style: "glass"
+
+# 4. NEON (Bold and striking)
+#    Glowing neon-style buttons with colorful borders
+#    Perfect for: Dark themes, creative profiles
+button_style: "neon"
+
+# 5. ROUNDED (Clean default)
+#    Clean rounded buttons with subtle shadows
+#    Perfect for: Any theme, professional look
+button_style: "rounded"
+
+# 6. SQUARE
+#    Sharp, professional square buttons
+#    Perfect for: Minimal theme, corporate style
+button_style: "square"
+
+# 7. PILL
+#    Fully rounded pill-shaped buttons
+#    Perfect for: Fun, friendly aesthetic
+button_style: "pill"
+
+---
+
+# Theme-Specific Recommendations:
+
+# MODERN THEME with Vanta.js:
+# - gradient_border: Animated borders, perfect with moving backgrounds
+# - solid: Maximum contrast and visibility
+# - glass: Beautiful transparency effects
+# - neon: Striking with dark Vanta backgrounds
+
+# GRADIENT THEME:
+# - gradient_border: Matches the vibrant aesthetic
+# - glass: Beautiful transparency effects
+# - rounded: Clean and colorful
+
+# MINIMAL THEME:
+# - glass: Adds subtle depth
+# - rounded: Maintains clean aesthetic
+# - square: Sharp and professional
+
+---
+
+# Button Visibility with Animated Backgrounds:
+# When using Vanta.js or animated backgrounds, use these for best visibility:
+# 1. solid - Highest contrast, filled background
+# 2. gradient_border - Glowing borders, very visible
+# 3. neon - Bold glowing effect
+# 4. glass - Good with proper backdrop blur
+
+---
+
+# Color Customization:
+# Button styles automatically adapt to your theme colors:
+# - gradient_border: Uses primary/secondary colors for animated gradient
+# - solid: Uses primary color for background fill
+# - neon: Uses primary color for the glow effect
+# - glass: Works with any background, uses theme colors for text/borders
+# - All styles respect your theme's color palette
+
+---
+
+# Performance Notes:
+# - gradient_border: Slight performance impact due to CSS animations
+# - solid: No performance impact (fastest)
+# - glass: Minimal performance impact (backdrop-filter)
+# - neon: Minimal performance impact
+# - rounded/square/pill: No performance impact
+
+# Mobile Optimization:
+# - All button styles are mobile-responsive
+# - Gradient animations may be reduced on mobile for battery life
+# - Touch targets remain properly sized (minimum 44x44px)
+# - Glass effects may be simplified on older mobile devices
+
+---
+
+# Accessibility:
+# All button styles meet WCAG 2.1 AA contrast requirements when:
+# - Using recommended color combinations
+# - text_color provides sufficient contrast with button backgrounds
+# - Interactive elements have clear focus states
+# - Touch targets are adequately sized for mobile

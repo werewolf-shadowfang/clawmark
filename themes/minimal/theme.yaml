@@ -1,0 +1,48 @@
+# Minimal Theme Configuration
+name: "Minimal"
+description: "Clean and simple black and white theme for a professional look"
+version: "1.0.0"
+
+# Theme-specific settings
+colors:
+  primary: "#000000"
+  secondary: "#333333"
+  background: "#ffffff"
+  text: "#000000"
+
+features:
+  - "Minimalist design"
+  - "Black and white aesthetic"
+  - "Clean typography"
+  - "Print-friendly"
+  - "Fast loading"
+  - "High contrast"
+  - "Vanta.js animated backgrounds support"
+
+# Customizable options
+customization:
+  supports_custom_colors: true
+  supports_custom_fonts: true
+  max_links: 15
+  avatar_shape: "circle"
+  
+# Recommended Vanta.js settings for this theme
+vanta_recommendations:
+  effects:
+    primary: "dots"
+    alternatives: ["topology", "net", "noise"]
+  settings:
+    dots:
+      color: "#333333"
+      color2: "#666666"
+      backgroundColor: "#f8f9fa"
+      size: 3
+      spacing: 30
+    topology:
+      color: "#333333"
+      backgroundColor: "#f8f9fa"
+    net:
+      color: "#333333"
+      backgroundColor: "#f8f9fa"
+      points: 8
+      maxDistance: 25

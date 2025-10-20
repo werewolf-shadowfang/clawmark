@@ -1,0 +1,274 @@
+# ClawMark Configuration File - Vanta.js Examples
+# This YAML file shows different Vanta.js background configurations
+
+# Site configuration
+site:
+  title: "My Animated ClawMark"
+  description: "All my important links with stunning animated backgrounds"
+  url: "https://yourdomain.com"  # Required for Open Graph/social media previews
+  theme: "modern"  # Options: modern, minimal, gradient
+  favicon: "assets/icons/favicon.svg"
+  custom_css: "assets/css/custom.css"
+  og_image: "assets/images/og-preview.png"  # Social media preview image
+  analytics:
+    google_analytics: ""
+    
+# Profile information  
+profile:
+  name: "Your Name"
+  bio: "Creative professional with animated style."
+  avatar: "assets/images/profile.jpg"
+  location: "Your City, Country"
+  
+# Social media links (all platforms supported)
+social:
+  instagram: "yourhandle"
+  x: "yourhandle"  
+  linkedin: "yourhandle"
+  github: "yourhandle"
+  youtube: "yourchannel"
+  tiktok: "yourhandle"
+  facebook: "yourhandle"
+  discord: "https://discord.gg/yourinvite"
+  email: "you@example.com"
+
+# Main links - these are the primary buttons on your site
+links:
+  - title: "My Website"
+    url: "https://yourwebsite.com"
+    description: "Check out my personal website"
+    icon: "🌐"
+    featured: true
+    
+  - title: "Portfolio"
+    url: "https://portfolio.yoursite.com"
+    description: "View my creative work and projects"
+    icon: "🎨"
+    featured: true
+    
+  - title: "Buy Me Coffee"
+    url: "https://buymeacoffee.com/yourhandle"
+    description: "Support my work"
+    icon: "☕"
+
+# Advanced settings (optional)
+advanced:
+  # Custom head content (for additional meta tags, scripts, etc.)
+  custom_head: ""
+  
+  # Custom footer content  
+  custom_footer: ""
+  
+  # Theme customization (theme-specific options)
+  theme_options:
+    primary_color: "#6366f1"
+    secondary_color: "#8b5cf6" 
+    background_color: "#ffffff"
+    text_color: "#1f2937"
+    primary_font: "Inter, sans-serif"
+    max_width: "400px"
+    button_style: "solid"  # Best visibility for animated backgrounds: solid, gradient_border
+    animation: true
+    
+  # Vanta.js Animated Backgrounds - WAVES EFFECT
+  vanta:
+    enabled: true
+    effect: "waves"  # Smooth ocean-like waves
+    mobile_fallback: true  # Use static background on mobile
+    
+    settings:
+      color: "#4f46e5"  # Wave color
+      color2: "#7c3aed"  # Secondary wave color
+      backgroundColor: "#1e1b4b"  # Deep blue background
+      waveHeight: 20  # Wave amplitude
+      waveSpeed: 0.5  # Wave animation speed
+      zoom: 1  # Zoom level
+      
+    performance:
+      lowPerformanceMode: false
+      fps: 60
+      
+    mobile_background:
+      type: "gradient"
+      color: "#1e1b4b"
+      gradient: "linear-gradient(135deg, #1e1b4b, #4f46e5)"
+  
+  # Open Graph / Social Media Preview Configuration
+  og_image_config:
+    enabled: true
+    title: "Your Name"
+    subtitle: "Creative Professional"
+    tagline: "Check out my links!"
+    gradient_start: "#4f46e5"
+    gradient_end: "#7c3aed"
+    text_color: "#ffffff"
+    cta_text: "View Profile"
+    cta_bg: "#ffffff"
+    cta_text_color: "#4f46e5"
+
+---
+
+# Alternative Configuration Examples:
+
+# BIRDS EFFECT EXAMPLE:
+# vanta:
+#   enabled: true
+#   effect: "birds"
+#   mobile_fallback: true
+#   
+#   settings:
+#     color1: "#ff6b6b"  # Bird color 1
+#     color2: "#4ecdc4"  # Bird color 2
+#     backgroundColor: "#667eea"  # Sky color
+#     quantity: 4  # Number of birds
+#     birdSize: 1.5  # Size multiplier
+#     wingSpan: 40  # Wing span
+#     speedLimit: 5  # Maximum speed
+#     separation: 20  # Bird separation distance
+#     alignment: 20  # Alignment behavior
+#     cohesion: 20  # Cohesion behavior
+
+# GRADIENT EFFECT EXAMPLE:
+# vanta:
+#   enabled: true
+#   effect: "gradients"
+#   mobile_fallback: true
+#   
+#   settings:
+#     color: "#ff6b6b"
+#     color2: "#4ecdc4"
+#     backgroundColor: "#667eea"
+#     speed: 1.0  # Animation speed
+#     hue: 200  # Base hue
+#     brightness: 60  # Brightness level
+
+# NET EFFECT EXAMPLE:
+# vanta:
+#   enabled: true
+#   effect: "net"
+#   mobile_fallback: true
+#   
+#   settings:
+#     color: "#6366f1"
+#     backgroundColor: "#0f172a"
+#     points: 10  # Number of connection points
+#     maxDistance: 20  # Maximum connection distance
+#     spacing: 16  # Point spacing
+#     showDots: true  # Show connection points
+
+# TOPOLOGY EFFECT EXAMPLE:
+# vanta:
+#   enabled: true
+#   effect: "topology"
+#   mobile_fallback: true
+#   
+#   settings:
+#     color: "#6366f1"
+#     backgroundColor: "#0f172a"
+
+# DOTS EFFECT EXAMPLE:
+# vanta:
+#   enabled: true
+#   effect: "dots"
+#   mobile_fallback: true
+#   
+#   settings:
+#     color: "#333333"
+#     color2: "#666666"
+#     backgroundColor: "#f8f9fa"
+#     size: 3  # Dot size
+#     spacing: 30  # Dot spacing
+
+# CLOUDS EFFECT EXAMPLE:
+# vanta:
+#   enabled: true
+#   effect: "clouds"
+#   mobile_fallback: true
+#   
+#   settings:
+#     cloudColor: "#ffffff"
+#     skyColor: "#87ceeb"
+#     speed: 0.6  # Cloud movement speed
+
+# FOG EFFECT EXAMPLE:
+# vanta:
+#   enabled: true
+#   effect: "fog"
+#   mobile_fallback: true
+#   
+#   settings:
+#     highlightColor: "#ff6b6b"
+#     midtoneColor: "#4ecdc4"
+#     lowlightColor: "#667eea"
+#     baseColor: "#1e1b4b"
+#     speed: 1.0
+#     zoom: 1
+
+# RINGS EFFECT EXAMPLE:
+# vanta:
+#   enabled: true
+#   effect: "rings"
+#   mobile_fallback: true
+#   
+#   settings:
+#     color: "#ff6b6b"
+#     backgroundColor: "#667eea"
+
+# HALO EFFECT EXAMPLE:
+# vanta:
+#   enabled: true
+#   effect: "halo"
+#   mobile_fallback: true
+#   
+#   settings:
+#     backgroundColor: "#1e1b4b"
+#     amplitudeFactor: 1.0
+#     xOffset: 0.5
+#     yOffset: 0.5
+
+# NOISE EFFECT EXAMPLE:
+# vanta:
+#   enabled: true
+#   effect: "noise"
+#   mobile_fallback: true
+#   
+#   settings:
+#     backgroundColor: "#1e1b4b"
+#     highlightColor: "#ff6b6b"
+#     speed: 0.5
+
+# CELLS EFFECT EXAMPLE:
+# vanta:
+#   enabled: true
+#   effect: "cells"
+#   mobile_fallback: true
+#   
+#   settings:
+#     color1: "#ff6b6b"
+#     color2: "#4ecdc4"
+#     size: 1.5
+#     speed: 1.0
+
+# GLOBE EFFECT EXAMPLE:
+# vanta:
+#   enabled: true
+#   effect: "globe"
+#   mobile_fallback: true
+#   
+#   settings:
+#     color: "#6366f1"
+#     color2: "#8b5cf6"
+#     backgroundColor: "#1e1b4b"
+#     size: 1.0
+
+# TRUNK EFFECT EXAMPLE:
+# vanta:
+#   enabled: true
+#   effect: "trunk"
+#   mobile_fallback: true
+#   
+#   settings:
+#     color: "#6366f1"
+#     backgroundColor: "#1e1b4b"
+#     spacing: 0
+#     chaos: 4

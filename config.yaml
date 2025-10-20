@@ -1,0 +1,120 @@
+# ClawMark Configuration File
+# This YAML file controls your ClawMark site generation
+
+# Site configuration
+site:
+  title: "My ClawMark"
+  description: "All my important links in one place"
+  theme: "modern"  # Options: modern, minimal, gradient, retro
+  favicon: ""  # Optional: path to favicon
+  custom_css: ""  # Optional: path to additional CSS file
+  analytics:
+    google_analytics: ""  # Optional: Google Analytics tracking ID
+    
+# Profile information  
+profile:
+  name: "Your Name"
+  bio: "Creative professional, content creator, and digital enthusiast."
+  avatar: "https://via.placeholder.com/150"  # Profile picture URL or local path
+  location: "Your City, Country"  # Optional
+  
+# Social media links (optional)
+social:
+  instagram: ""  # Just the username, e.g., "yourhandle"
+  x: ""          # Just the username, e.g., "yourhandle"  
+  linkedin: ""   # Just the username, e.g., "yourhandle"
+  github: ""     # Just the username, e.g., "yourhandle"
+  youtube: ""    # Just the username/channel, e.g., "yourchannel"
+  tiktok: ""     # Just the username, e.g., "yourhandle"
+  facebook: ""   # Just the username, e.g., "yourhandle"
+  discord: ""    # Discord server invite code or username
+  email: ""      # Your email address
+
+# Main links - these are the primary buttons on your site
+links:
+  - title: "My Website"
+    url: "https://yourwebsite.com"
+    description: "Check out my personal website"
+    icon: "🌐"  # Optional emoji or you can use CSS classes
+    featured: true  # Optional: makes the link stand out
+    
+  - title: "My Blog"
+    url: "https://yourblog.com"
+    description: "Read my latest thoughts and tutorials"
+    icon: "📝"
+    
+  - title: "Portfolio"
+    url: "https://portfolio.yoursite.com"
+    description: "View my creative work and projects"
+    icon: "🎨"
+    featured: true
+    
+  - title: "Buy Me Coffee"
+    url: "https://buymeacoffee.com/yourhandle"
+    description: "Support my work"
+    icon: "☕"
+    
+  - title: "Newsletter"
+    url: "https://newsletter.yoursite.com"
+    description: "Subscribe to my weekly updates"
+    icon: "📰"
+    
+  - title: "Online Store"
+    url: "https://store.yoursite.com"  
+    description: "Shop my products and merchandise"
+    icon: "🛍️"
+
+# Advanced settings (optional)
+advanced:
+  # Custom head content (for additional meta tags, scripts, etc.)
+  custom_head: ""
+  
+  # Custom footer content  
+  custom_footer: ""
+  
+  # Theme customization (theme-specific options)
+  theme_options:
+    # Colors (will override theme defaults if supported)
+    primary_color: "#6366f1"
+    secondary_color: "#8b5cf6" 
+    background_color: "#ffffff"
+    text_color: "#1f2937"
+    
+    # Fonts
+    primary_font: "Inter, sans-serif"
+    
+    # Layout options
+    max_width: "400px"
+    button_style: "rounded"  # Options: rounded, square, pill, gradient_border, glass, neon
+    animation: true  # Enable/disable animations
+    
+  # Vanta.js Animated Backgrounds
+  vanta:
+    enabled: false  # Enable/disable Vanta.js backgrounds
+    effect: "waves"  # Options: waves, birds, fog, clouds, net, cells, topology, dots, globe, rings, trunk, halo, noise, gradients
+    mobile_fallback: true  # Use static background on mobile devices
+    
+    # Effect-specific configuration
+    settings:
+      # Universal settings (work with most effects)
+      color: "#4f46e5"  # Primary color
+      color2: "#7c3aed"  # Secondary color (when supported)
+      backgroundColor: "#1e1b4b"  # Background color
+      
+      # Advanced settings (effect-specific)
+      # These will be passed directly to the Vanta.js effect
+      waveHeight: 20
+      waveSpeed: 0.5
+      zoom: 1
+      
+    # Performance settings
+    performance:
+      lowPerformanceMode: false  # Reduce quality for better performance
+      fps: 60  # Target FPS (will auto-adjust on slower devices)
+      
+    # Mobile fallback styling
+    mobile_background:
+      type: "gradient"  # Options: color, gradient, image
+      color: "#1e1b4b"
+      gradient: "linear-gradient(135deg, #1e1b4b, #4f46e5)"
+      image: ""  # URL to background image
